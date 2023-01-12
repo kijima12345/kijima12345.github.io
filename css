@@ -1,0 +1,14 @@
+.img1{
+    border-radius: 50% 50% 50% 50%;
+}
+table { 
+    width: 800px;} 
+    th, td { 
+    padding: 7px 10px 10px 10px;} 
+    th { 
+    font-size: 40px; 
+    border-bottom: 2px solid #c61717; 
+    text-align: left;
+    } 
+    tr:hover { 
+    background-color: #5a1bd0;} 
