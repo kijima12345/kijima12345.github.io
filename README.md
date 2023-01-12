@@ -1,0 +1,64 @@
+# kijima12345.github.io
+<h1>学生登録フォーム</h1>
+<fieldset>
+    <link rel="stylesheet" href="css/トライ-14.css">
+    <legend> 個人情報</legend>
+    <label id="name-label" for="name">名前:</label>
+    <input type="text" placeholder="名前"><br>
+    <label id="name-label" for="name">住所:</label>
+    <input type="text" placeholder="住所"><br>
+    <label id="name-label" for="name">Email:</label>
+    <input type="text" placeholder="メール"><br>
+    <label id="name-label" for="name">電話番号:</label>
+    <input type="text" placeholder="090"><br>
+    <label id="name-label" for="name">1年性のGPA:</label>
+    <input type="text" placeholder="GPA"><br>
+
+    <input type="radio" name ="q2" value="男"> 男<br>
+    <input type="radio" name ="q2" value="女"> 女<br>
+    <input type="radio" name ="q2" value="他"> 他<br>
+
+DOB: <input type="date"> 
+
+</fieldset>
+
+<fieldset>
+    <p>学びたいことをチェックしてください。(Check All That Aply)<br><br>
+
+
+    <input type="checkbox">HTML<br>
+    <input type="checkbox">CSS<br>
+    <input type="checkbox">JavaScript<br>
+    <input type="checkbox">jQuery<br>
+    <input type="checkbox">AVAX<br>
+    <input type="checkbox">PHP<br>
+
+</fieldset>
+
+<fieldset>
+    学年:
+    <select>
+    <option value="left">1年生</option>
+    <option value="right">2年生</option>
+    <option value="conservative">3年生</option>
+    <option value="nazi">4年生</option>
+    </select>
+    最終学歴:
+    <select>
+    <option value="left">大学生</option>
+    <option value="right">高校生</option>
+    <option value="conservative">中学生</option>
+    </select>
+</fieldset>
+
+<fieldset>
+    <legend>自由</legend>
+    この大学に入学したい理由を50字以上で記入ください。
+    <textarea rows="4" cols="50" placeholder="Enter Text Here"></textarea><br>
+    2つの参照の連絡先の詳細を記入ください。<br>
+    <textarea rows="4" cols="50" placeholder="Enter Text Here"></textarea><br>
+    証明書をここにアップロードしてください。<br>
+    <input type="file"><br>
+</fieldset>
+
+<button type="submit" >提出</button>
